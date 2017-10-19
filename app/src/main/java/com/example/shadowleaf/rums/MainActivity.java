@@ -45,7 +45,8 @@ public class        MainActivity extends AppCompatActivity {
 
         EditText inputText = (EditText) findViewById(R.id.editText2);
         String typedText = inputText.getText().toString();
-        Log.d("TEST ", typedText);
+        Message currMessage = new Message(typedText, "Sender", "Reciever");
+        //Log.d("TEST ", typedText);
     }
 
     /**
