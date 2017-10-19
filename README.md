@@ -3,8 +3,8 @@
 This is a small group project by the Students of **Ramaiah University of Applied Science**
 
 Current Taks : 
-[X] add simple message class
-[ ] add class to recieve the message and send to server
+- [X] add simple message class
+- [ ] add class to recieve the message and send to server
 
 Contributers : 
 
