@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">RUMS</string>
+    <string name="message_field">Type a message</string>
+    <string name="send_button_name">Send</string>
 </resources>

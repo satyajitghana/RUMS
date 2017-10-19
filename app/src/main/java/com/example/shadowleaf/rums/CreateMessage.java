@@ -2,6 +2,7 @@ package com.example.shadowleaf.rums;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -49,7 +50,7 @@ public class CreateMessage extends Activity {
                 EditText inputText = (EditText) findViewById(R.id.editText2);
                 String typedText = inputText.getText().toString();
                 Message currMessage = new Message(typedText, "Sender", "Reciever");
-                //Log.d("TEST ", typedText);
+                Log.d("TEST ", typedText);
             }
         });
     }
