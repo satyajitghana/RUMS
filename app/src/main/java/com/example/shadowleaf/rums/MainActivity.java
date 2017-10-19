@@ -1,5 +1,6 @@
 package com.example.shadowleaf.rums;
 
+import android.app.Activity;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.EditText;
@@ -14,6 +15,7 @@ import java.util.Date;
  * Author : Satyajit Ghana
  * Updated 19-October-2017
  */
+
 class Message {
     private String message;
     private String messageSender;
@@ -43,10 +45,7 @@ public class        MainActivity extends AppCompatActivity {
     TextView tv = (TextView) findViewById(R.id.sample_text);
     tv.setText(stringFromJNI());
 
-        EditText inputText = (EditText) findViewById(R.id.editText2);
-        String typedText = inputText.getText().toString();
-        Message currMessage = new Message(typedText, "Sender", "Reciever");
-        //Log.d("TEST ", typedText);
+
     }
 
     /**
