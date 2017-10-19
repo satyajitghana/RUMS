@@ -1,40 +1,10 @@
 package com.example.shadowleaf.rums;
 
-import android.app.Activity;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.widget.EditText;
 import android.widget.TextView;
-import android.util.Log;
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
-import java.util.Date;
 
-/*
- * Message Class
- * Author : Satyajit Ghana
- * Updated 19-October-2017
- */
-
-class Message {
-    private String message;
-    private String messageSender;
-    private String messageReciever;
-    private Date date;
-
-    Message(String message, String sender, String receiver) {
-        this.message = message;
-        this.date = new Date();
-        this.messageReciever = receiver;
-        this.messageSender = sender;
-    }
-
-    Message getMessage(Message message) {
-        return message;
-    }
-}
-
-public class        MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
