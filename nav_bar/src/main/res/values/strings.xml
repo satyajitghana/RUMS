@@ -1,8 +1,5 @@
 <resources>
-    <string name="app_name">RUMS</string>
-    <string name="message_field">Type a message</string>
-    <string name="send_button_name">Send</string>
-    <string name="title_activity_nav_bar">Nav_bar</string>
+    <string name="app_name">some</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
